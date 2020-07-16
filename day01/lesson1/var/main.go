@@ -3,20 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var name string
-	var age int
-	/*
-		var(
-			a int
-			b float
-			c bool
-		)
-	*/
+	s1 := `
+	第一行
+	第二行
+	第三行`
+	fmt.Printf(s1)
 
-	name = "zhangsan"
-	age = 18
-	y := 1.9
-	fmt.Println(name)
-	fmt.Println(age)
-	fmt.Println(y)
 }
