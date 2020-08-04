@@ -12,8 +12,8 @@ func main() {
 	age = 19
 	isOk = true
 	zise := 1.8
-	fmt.Println("姓名:", name)
-	fmt.Println("年龄:", age)
+	fmt.Printf("姓名:%5v\n", name)
+	fmt.Printf("年龄:%5v\n", age)
 	fmt.Println("健康状况:", isOk)
 	fmt.Println("身高：", zise)
 }
